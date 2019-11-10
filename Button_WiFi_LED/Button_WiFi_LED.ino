@@ -168,12 +168,14 @@ void loop() {
     switch (checkWeather()){
       case 0: // 雨
         // 赤LEDを点灯
+        Serial.println("Red!");
         digitalWrite(RED_LED_PIN, HIGH);
         delay(1000); 
         digitalWrite(RED_LED_PIN, LOW);
         break;
       case 1: // 雨以外
         // 青LEDを点灯
+        Serial.println("Blue!");
         digitalWrite(BLUE_LED_PIN, HIGH);
         delay(1000); 
         digitalWrite(BLUE_LED_PIN, LOW);
