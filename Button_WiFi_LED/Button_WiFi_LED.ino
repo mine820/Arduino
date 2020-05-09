@@ -1,8 +1,8 @@
 #include <WiFiClientSecure.h>
 
 // WiFi情報
-#define WIFI_SSID "ap-pcG-9717e9"
-#define WIFI_PSK "prince1999"
+#define WIFI_SSID "wifi_ssid"
+#define WIFI_PSK "wifi_pass"
 
 // Host情報
 #define DEST_HOST "weather.yahoo.co.jp"
