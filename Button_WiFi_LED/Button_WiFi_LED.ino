@@ -1,8 +1,8 @@
 #include <WiFiClientSecure.h>
 
 // WiFi情報
-#define WIFI_SSID "your_ssid"
-#define WIFI_PSK "your_password"
+#define WIFI_SSID "ap-pcG-9717e9"
+#define WIFI_PSK "prince1999"
 
 // Host情報
 #define DEST_HOST "weather.yahoo.co.jp"
@@ -35,9 +35,9 @@ const char* test_root_ca= \
 WiFiClientSecure client;
 
 // PIN情報
-#define BUTTON_PIN 4    // ボタン
-#define RED_LED_PIN 2   // 赤LED
-#define BLUE_LED_PIN 15 // 青LED
+#define BUTTON_PIN 4    // the number of the pushbutton pin
+#define RED_LED_PIN 2   // the number of the LED Red pin
+#define BLUE_LED_PIN 15 // the number of the LED Blue pin
 
 //*******************************************************************
 void setup() {
